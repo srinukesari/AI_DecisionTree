@@ -1,6 +1,5 @@
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
-import numpy as np
 from sklearn.model_selection import StratifiedKFold
 from evaluate_model import evaluate_model
 from get_train_and_test_data import get_train_and_test_data
@@ -49,5 +48,5 @@ def random_forest_model():
     print(f"Random Forest Model Results: {results_randomforest}")
 
 if __name__ == "__main__":
-    print("started !!!")
+    print("started random forest model!!!")
     random_forest_model()
