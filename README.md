@@ -28,8 +28,12 @@ Follow these steps to set up the environment and install the necessary packages 
     ```bash
     pip install numpy scikit-learn
     ```
+3.Install the necessary packages pytorch:
+    ```bash
+    pip install torch torchvision torchaudio
+    ```
 
-3. If there are other packages used in the project, install them as well. For example:
+4. If there are other packages used in the project, install them as well. For example:
     ```bash
     pip install pandas matplotlib
     ```
@@ -40,3 +44,4 @@ You have successfully set up the environment and installed the necessary package
 
 You can run any model by running the related file
 python3 filename.py
+
